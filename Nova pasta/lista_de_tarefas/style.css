@@ -1,0 +1,77 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #868484;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  #container{
+    background-color: white;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+ }
+ h2 {
+  margin-top: 0;
+}
+
+input {
+  width: 80%;
+  padding: 8px;
+  margin-top: 10px;
+}
+
+button {
+  padding: 8px 12px;
+  margin-top: 10px;
+  cursor: pointer;
+  background-color: #3b70e0;
+  border: transparent;
+  border-radius: 10px;
+  color: white;
+  font-size: 20px;
+  transition: background-color 0,5s;
+  transform: 2s;
+}
+button:hover{
+  background-color: #032f8f;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin-top: 20px;
+  text-align: center;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+.feito {
+  text-decoration: line-through;
+  color: gray;
+}
+
+.btn-remover, .btn-concluir {
+    padding: 8px 12px;
+    border-radius: 10px;
+    margin-left: 10px;
+    cursor: pointer;
+    font-size: 0.9em;
+}
+
+.btn-remover {
+    border: 2px red;
+    color: red;
+}
+
+.btn-concluir {
+    border: 2px green;
+    color: green;
+}
